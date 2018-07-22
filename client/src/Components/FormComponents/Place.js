@@ -54,7 +54,6 @@ class Place extends Component{
 
 
 	onHandleClick(e, element){
-		console.log(element.description)
 		this.props.event(element.description, "place")
 		this.setState({
 			place : element.description,

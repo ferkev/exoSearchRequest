@@ -27,8 +27,7 @@ class SearchForm extends  Component{
 			stagesWA: "", 
 			comment: "",
 			image: "",
-			error: "",
-			send: false
+			error: ""
 		}
 	}
 

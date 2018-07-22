@@ -33,8 +33,6 @@ class StagesWA extends Component{
 	}
 
 	render(){
-
-		console.log(this.props.error)
 		let obligatoire ="";
 		if( this.state.stagesWA === ""){
 			obligatoire = this.props.error

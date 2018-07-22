@@ -34,7 +34,6 @@ class Surface extends Component{
 
 
 	render(){
-		console.log(this.state.surface)
 		let obligatoire = "";
 		if( this.state.PiecesNumber === ""){
 			obligatoire = this.props.error
